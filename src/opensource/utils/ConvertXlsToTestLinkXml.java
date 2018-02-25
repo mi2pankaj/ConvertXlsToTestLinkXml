@@ -23,8 +23,8 @@ public class ConvertXlsToTestLinkXml {
 		{
 			/** change values here only */
 
-			String testcaseFile = "/Users/pankaj.katiyar/Downloads/Revamp.xls";
-			String desiredTestlinkXMLFile = "/Users/pankaj.katiyar/Desktop/file.xml";
+			String testcaseFile = System.getProperty("user.dir").concat("/SampleTestCase/SampleTestCase.xls");
+			String desiredTestlinkXMLFile = System.getProperty("user.dir").concat("/OutputTestLinkXmlFile/OutputTestLinkXmlFile.xml");
 
 			/**************************/
 
